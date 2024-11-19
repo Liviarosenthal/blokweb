@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.moma.org
+  https://www.redbull.com/nl-nl/energydrink
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="../basiswebsite/mijnimages/MOMA 1.png" width="375px" alt="omschrijving van de pagina">
+  <img src="../basiswebsite/images/home-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="../basiswebsite/mijnimages/MOMA 2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="../basiswebsite/images/events-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -57,6 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Mijn bevindingen waren dat de screenreader niet fijn was om te gebruiken. De content werd onduidelijk en snel voorgelezen. Engels en Nederlands door elkaar. Dit maakt het bijna onmogelijk om de website als blinden/slechtzienden te bezoeken. 
 
 </details>
 
@@ -68,10 +69,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="../basiswebsite/mijnimages/screenshot eerstepagina patronaat.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="../basiswebsite/images/home-pagina-redbull.png width=" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="../basiswebsite/mijnimages/screenshot tweedepagina patronaat.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="../basiswebsite/images/events-pagina-redbull.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
