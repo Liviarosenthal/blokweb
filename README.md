@@ -57,7 +57,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  Mijn bevindingen waren dat de screenreader niet fijn was om te gebruiken. De content werd onduidelijk en snel voorgelezen. Engels en Nederlands door elkaar. Dit maakt het bijna onmogelijk om de website als blinden/slechtzienden te bezoeken. 
+
+Mijn bevindingen waren dat de screenreader niet prettig was om te gebruiken. De voorgelezen content was onduidelijk en het werd ook in een hoog tempo voorgelezen, wat het lastig maakte om te volgen. Dit zorgde voor verwarring en maakte het navigeren door de website een frustrerende ervaring.
+
+Daarnaast werden afbeeldingen niet voorzien van een beschrijving, waardoor het voor blinden en slechtzienden onmogelijk is om te weten wat er op de afbeeldingen staat. Het ontbreken van duidelijke alt-teksten maakt het niet toegankelijk. Een ander probleem was dat knoppen of menu-items die kunnen worden uitgevouwen, niet automatisch door de screenreader werden uitgevouwen en dus niet worden voorgelezen. Hierdoor is het lastig om de inhoud achter deze knoppen te ontdekken zonder hulp.
+
+Deze problemen maken het bijna onmogelijk voor blinden en slechtzienden om de website op een toegankelijke manier te gebruiken. Het verbeteren van alt-teksten voor afbeeldingen, het automatisch verduidelijken van interactieve elementen zoals knoppen, zijn nodig om de Red Bull website toegankelijk te maken voor iedereen. 
 
 </details>
 
@@ -89,7 +94,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code) 
+
+  Er zijn een wijzigingen die ik moet doen in de code. Zo moet ik de pixels weghalen uit de 
+  HTML code. De hierarchie van de sections beter inrichten, want nu heb ik bijvoorbeeld meerdere h1 elementen op verschillende plekken. Ook kan ik sommige sections benoemen met een class, zodat ik die kan aanspreken in de CSS. Daarnaast moet de alt beschrijving bij een img gedailleerder, zodat het toegankelijker wordt. Ook kwam uit het voortgangsgesprek dat de breakdownschets uitgebreider moet. 
+  
 
 
   ### Agenda voor meeting
