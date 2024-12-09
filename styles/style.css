@@ -14,38 +14,245 @@
 	--color-background:#eee;
 }
 
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
  
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #f3f3f3;
+  background-color: white;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;  
 }
 
-header {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    gap: 20px; 
-    
+img {
+  width: 100%;
+  height: auto;
 }
 
-.menu-button {
-  align-self: flex-start;
-	cursor: pointer;
-  border-radius: 160px;
-  background-color: #f2f3f3;
-  padding: 18px;
-  border: #c2c6c9 solid 1px;
-
+h1 {
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 55px;
+  max-width: 340px;
+  text-align: center;
 }
 
-.logowebsite {
-  width: 180px;
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  max-width: 100%; 
+  height: 80px;
+  margin-bottom: 55px;
+  top:0;
+}
+
+header a img {
+  width: 158px;
+  height: auto;
+}
+
+header button {
+  position: absolute; 
+  left: 10px; 
+  align-self: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #000f1e0d;
+  border: #000f1e33 solid 1px;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+/* nav */
+nav {
+  position: fixed;
+  inset: 0;                       /*bron:https://www.w3schools.com/cssref/css_pr_inset.php*/
+  background-color: #001c39;
+  color: white;
+  transform: translate(-100%);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1.5em;
+  z-index: 5;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+nav.toonMenu {
+  transform: translate(0);
+}
+
+nav button {                    /*bron:https://www.w3schools.com/cssref/css_pr_inset.php*/
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  align-self: flex-end;
+  cursor: pointer;
+  position: absolute; 
+  left: 10px; 
+  align-self: center; 
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Zoekbalk */
+nav form {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #fff3;
+  cursor: pointer;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: space-between;
+  line-height: 24px;
+  width: 100%;
+  color: #1a191980;
+  background-color: transparent;
+}
+
+form input {
+  background-color: transparent;
+  color: #ffffffb3;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+}
+
+nav a img { 
+  width: 158px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+nav form button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/* Menu-items */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 1em 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li ul.submenu {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5em;
+  padding-left: 1.5em;
+  display: none;
+}
+
+nav ul li ul.submenu li a {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #ddd;
+}
+
+.containernav {
+  color: #fff;
+  display: inline-flex;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.containernav a {
+  border: 1px solid white; 
+  border-radius: 20px; 
+  padding: 0.5em 1.5em; 
+  font-size: 14px; 
+  color: white; 
+  text-decoration: none; 
+  display: inline-block; 
+  text-align: center; 
+  background-color: transparent; 
+  cursor: pointer; 
+}
+
+.containernav h2{
+  font-size: 22px;  
+}
+
+/* image slider */
+.image-slider {
+  overflow-x: auto; 
+  white-space: nowrap; 
+  padding: 20px 0;
+}
+
+.slider-wrapper {
+  display: flex;
+  gap: 20px; 
+}
+
+.image-link {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.image-item {
+  background-color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 250px; 
+  text-align: center;
+  padding: 20px;
+}
+
+.image-item img {
+  width: 90px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.image-item p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #000; 
 }
 
 .informatie {
@@ -55,21 +262,16 @@ header {
   justify-content: center;
 }
 
-.informatie :first-child {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 70px;
-  max-width: 300px;
-  width: 100%;
-}
-
 .informatie img:nth-child(2) {
-  width: 120px;
+  width: 132px;
+  height: 342px;
+  margin-bottom: 55px;
 }
 
 .informatie img:nth-child(3) {
-  width: 100%;
+  height: 250px;
+  margin-bottom: 55px;
+  object-fit: contain;
 }
 
 .informatie h2:nth-child(4) { 
@@ -78,39 +280,163 @@ header {
   font-weight: 600;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .RedbullTV {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: white;
-  padding: 20px;
+  padding: 16px;
   border-radius: 10px;
   border: #111;
-  max-width: 800px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 398px;
+  height: 500px;
+  box-shadow: 0 16px 32px 0 #001e3c1f;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto; 
+  position: relative;
+  margin-bottom: 110px;
+  margin-top: 48px;
+  z-index: -1;
+}
+
+.RedbullTV img:nth-child(4) {
+  width: 366px;
+  height: 243px;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+
+.RedbullTV h2 {
+  font-size: 28px;
+  width: 318px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.RedbullTV p {
+  font-size: 18px;
+  width: 317px;
+  font-weight: 100;
+  margin-bottom: 32px;
 }
 
 .RedbullTV button {
   background-color: #db0940;
-  font-size: 12px;
+  font-size: 16px;
   border: none;
   color: white;
+  width: 211px;
+  height: 48px;
   border-radius: 30px;
-  padding: 10px 30px;
-  font-weight: bold;
+  padding: 10px 24px;
+  font-weight:100;
   cursor: pointer;
   text-align: center;
 }
 
-.RedbullTV img:nth-child(4) {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 70px;
+.Producten {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f8f8f8;
 }
+
+.Producten h2 {
+  font-size: 16px;
+  font-weight: 700;
+  width: 350px;
+  line-height: 1.25;
+  margin-bottom:35px ;
+  border-bottom-width: 4px;
+  padding-bottom: 6px;
+}
+
+.Producten h3 { 
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  max-width: 340px;
+  height: 140px;
+  margin: 0px 21px 30px;
+  line-height: 1.25;
+}
+
+.Producten p { 
+  font-size: 16px ;
+  max-width: 270px;
+  height: 96px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #000f1e99 ;
+  margin-bottom: 50px;
+}
+
+.Producten img { 
+  width: 83px;
+  height: 215px;
+}
+
+.tekening {
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white
+}
+
+.tekening h3 {
+  font-size: 28px;
+  margin-top: 90px;
+}
+
+.tekening img {
+  width: 340px;
+  border-radius: 10px ;
+}
+
+.tekening button { 
+  width: 230px;
+  height: 48px;
+  font-size: 16px;
+  padding: 0 24px;
+  background-color: #000f1e99;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* horizontaal scrollen redbull blikjes hoofdpagina. Bron: https://youtu.be/2_E5uoiLCLY?si=s3TTzIGeZ3Kma-gd*/
+.redbullwrapper {
+  overflow-x: auto; 
+  overflow-y: hidden; 
+}
+
+.slider {
+  display: flex; 
+  width: max-content; 
+  gap: 3em;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.item1 { background-color: white; }
+.item2 { background-color: #009EDF; }
+.item3 { background-color: #53b2c2; }
+

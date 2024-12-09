@@ -45,7 +45,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
   <img src="../basiswebsite/images/events-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
+
+  #### Breakdownschets:
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-1.png">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-2.png">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-3.heic">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-4.heic">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-5.heic">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-6.heic">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-7.HEIC">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-8.HEIC">
+  <img src="../basiswebsite/readme-images/breakdownschets-mainpage-9.heic">
  
+
+
 </details>
 
 
@@ -57,6 +70,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+<img src="../basiswebsite/readme-images/toegankelijkheidstest-1.png" width="375px" alt="toegankelijkheidstest">
+<img src="../basiswebsite/readme-images/toegankelijkheidstest-2.png" width="375px" alt="toegankelijkheidstest"> 
+<img src="../basiswebsite/readme-images/toegankelijkheidstest-3.png" width="375px" alt="toegankelijkheidstest"> 
+<img src="../basiswebsite/readme-images/toegankelijkheidstest-4.png" width="375px" alt="toegankelijkheidstest"> 
+<img src="../basiswebsite/readme-images/toegankelijkheidstest-5.png" width="375px" alt="toegankelijkheidstest">  
 
 Mijn bevindingen waren dat de screenreader niet prettig was om te gebruiken. De voorgelezen content was onduidelijk en het werd ook in een hoog tempo voorgelezen, wat het lastig maakte om te volgen. Dit zorgde voor verwarring en maakte het navigeren door de website een frustrerende ervaring.
 
@@ -77,10 +96,14 @@ Deze problemen maken het bijna onmogelijk voor blinden en slechtzienden om de we
   <img src="../basiswebsite/images/home-pagina-redbull.png width=" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="../basiswebsite/images/events-pagina-redbull.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/menu-screenshot1.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/menu-screenshot2.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/menu-screenshot3.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/menu-screenshot4.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/menu-screenshot5.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/fitler-dynamischdeel-eventspagina.png" width="375px" alt="filter op events pagina">
 
 </details>
 
@@ -239,8 +262,9 @@ Deze problemen maken het bijna onmogelijk voor blinden en slechtzienden om de we
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://codepen.io/shooft/pen/VwJXNEg hamburger menu
+  2. https://youtu.be/2_E5uoiLCLY?si=s3TTzIGeZ3Kma-gd horizontaal scrollen met afbeeldingen
+  3. bron:https://www.w3schools.com/cssref/css_pr_inset.php inset:0
+  4. Bron classlist: https://www.shecodes.io/athena/46410-what-does-classlist-add-do-in-javascript
 
 </details>
