@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="../basiswebsite/images/home-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
+  <img src="../basiswebsite/readme-images/home-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="../basiswebsite/images/events-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
+  <img src="../basiswebsite/readme-images/events-pagina-redbull.png" width="375px" alt="omschrijving van de pagina">
 
   #### Breakdownschets:
   <img src="../basiswebsite/readme-images/breakdownschets-mainpage-1.png">
@@ -96,14 +96,14 @@ Deze problemen maken het bijna onmogelijk voor blinden en slechtzienden om de we
   <img src="../basiswebsite/images/home-pagina-redbull.png width=" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="images/menu-screenshot1.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="images/menu-screenshot2.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="images/menu-screenshot3.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="images/menu-screenshot4.png" width="375px" alt="breakdown van een dynamisch deel">
-  <img src="images/menu-screenshot5.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu-screenshot1.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu-screenshot2.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu-screenshot3.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu-screenshot4.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu-screenshot5.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="images/fitler-dynamischdeel-eventspagina.png" width="375px" alt="filter op events pagina">
+  <img src="../basiswebsite/readme-images/fitler-dynamischdeel-eventspagina.png" width="375px" alt="filter op events pagina">
 
 </details>
 
